@@ -20,7 +20,7 @@ try
         Console.Write("\nEnter selection: ");
         char selectedItem = Console.ReadKey().KeyChar;
 
-        switch (selectedItem)
+        switch (char.ToLower(selectedItem))
         {
             case 'a':
                 Console.WriteLine("\n\nYou've selected Bits Inside Computer Memory!");
@@ -46,7 +46,7 @@ try
         Console.Write("\nEnter selection: ");
         char selectedItem = Console.ReadKey().KeyChar;
 
-        switch (selectedItem)
+        switch (char.ToLower(selectedItem))
         {
             case 'a':
                 Console.WriteLine("\n\nYou've selected A Sword Wedged Firmly in a Stone!");
@@ -72,7 +72,7 @@ try
         Console.Write("\nEnter selection: ");
         char selectedItem = Console.ReadKey().KeyChar;
 
-        switch (selectedItem)
+        switch (char.ToLower(selectedItem))
         {
             case 'a':
                 Console.WriteLine("\n\nYou've selected Six Ounces of Funny Jokes!");
